@@ -74,7 +74,7 @@ Slots in Shoelace/web components are functionally the same as basic slots in Sve
 Here is an example:
 
 ```jsx
-<sl-drawer label="Drawer" placement="start" class="drawer-placement-start" bind:open=[drawerIsOpen}>
+<sl-drawer label="Drawer" placement="start" class="drawer-placement-start" bind:open={drawerIsOpen}>
   This drawer slides in from the start.
   <div slot="footer">
     <sl-button variant="primary" onclick={() => (drawerIsOpen = false)}>
